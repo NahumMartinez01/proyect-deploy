@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piedra, papel,...</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Rock, paper scissors</h1>
+    <h2>Choose a option</h2>
+  
+    <div class="buttons">
+      <button id="paper" type="button">
+        <img src="img/paper.svg" id="paper" />
+      </button>
+      <button id="rock" type="button">
+        <img src="img/rock.svg" id="rock" />
+      </button>
+      <button id="scissors" type="button">
+        <img src="img/scissors.svg" id="scissors" />
+      </button>
+    </div>
+
+    <div class="player">
+      <p class="score">score:</p>
+    </div>
+
+    <div id="user-img">
+      <img id="img-user" />
+    </div>
+   
+    <div class="result"></div>
+
+    <div id="pc-img">
+      <img id="img-pc" />
+    </div>
+
+
+    <div class="machine">
+      <p class="score-pc">score:</p>
+    </div>
+    
+    <div class="buttons-pc">
+      <button  class="btn-pc" disabled>
+        <img src="img/paper.svg" />
+      </button>
+      <button class="btn-pc" disabled>
+        <img src="img/rock.svg" />
+      </button>
+      <button class="btn-pc" disabled>
+        <img src="img/scissors.svg" />
+      </button>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
